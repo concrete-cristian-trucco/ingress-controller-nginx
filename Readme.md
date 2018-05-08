@@ -1,6 +1,6 @@
 # Guia de Instalação Nginx Ingress Baremetal
 
-## Contents
+## Conteúdo do Guia
 
 - [Comandos mandatórios](#comandos-mandatórios)
 - [Instalar Nginx Controller com regras RBAC](#instalar-nginx-controller-com-regras-rbac)
