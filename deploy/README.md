@@ -1,3 +1,9 @@
-# Deployment documentation moved!
+# Deploy usando DaemonSet
 
-See (/docs/deploy)[../docs/deploy/index.md].
+#### Argumento passado na tag args para ssl mutuo.
+
+```
+    - --enable-ssl-passthrough
+```
+
+
