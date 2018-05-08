@@ -2,7 +2,7 @@
 
 ## Contents
 
-- [Comandos mandatórios](#comandosmandatórios)
+- [Comandos mandatórios](#comandos-mandatorios)
 - [Instalar Nginx Controller com regras RBAC](#Instalar Nginx Controller com regras RBAC)
 - [Custom Provider](#custom-provider)
   - [Baremetal](#baremetal)
@@ -14,7 +14,7 @@
 
 The following resources are required for a generic deployment.
 
-### Comandos mandatórios
+### Comandos-mandatorios
 
 ```console
 
