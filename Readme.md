@@ -3,7 +3,7 @@
 ## Contents
 
 - [Comandos mandatórios](#Comandos-mandatórios)
-- [Install with RBAC roles](#install-with-rbac-roles)
+- [Instalar Nginx Controller com regras RBAC](#Instalar Nginx Controller com regras RBAC)
 - [Custom Provider](#custom-provider)
   - [Baremetal](#baremetal)
 
@@ -13,7 +13,7 @@
 
 The following resources are required for a generic deployment.
 
-### Comandos-mandatórios
+### Comandos mandatórios
 
 ```console
 
@@ -29,7 +29,7 @@ kubectl apply -f -/deploy/udp-services-configmap.yaml
     
 ```
 
-### Instalar Nginx Controller com regras RBAC.
+### Instalar Nginx Controller com regras RBAC
 
 Please check the [RBAC](rbac.md) document.
 
