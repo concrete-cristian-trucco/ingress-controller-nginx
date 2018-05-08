@@ -2,10 +2,11 @@
 
 ## Contents
 
-- [Comandos mandatórios](#Comandos-mandatórios)
+- [Comandos mandatórios](#Comandos mandatórios)
 - [Instalar Nginx Controller com regras RBAC](#Instalar Nginx Controller com regras RBAC)
 - [Custom Provider](#custom-provider)
   - [Baremetal](#baremetal)
+  - [Verificando a instalação](#Verificando a instalação)
 
 - [Deploying the config-map](#deploying-the-config-map)
 
