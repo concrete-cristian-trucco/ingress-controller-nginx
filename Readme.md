@@ -4,9 +4,8 @@
 
 - [Comandos mandatórios](#comandos-mandatórios)
 - [Instalar Nginx Controller com regras RBAC](#instalar-nginx-controller-com-regras-rbac)
-- [Custom Provider](#custom-provider)
   - [Baremetal](#baremetal)
-  - [Verificando a instalação](#Verificando a instalação)
+  - [Verificando a instalação](#verificando-instalação)
 
 - [Deploying the config-map](#deploying-the-config-map)
 
@@ -53,7 +52,7 @@ kubectl apply -f deploy/service-nodeport.yaml
     
 ```
 
-## Verificando a instalação
+## Verificando instalação
 
 Para checar se os pods do ingress controller foram iniciados, execute o seguinte comando:
 
