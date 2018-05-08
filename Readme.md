@@ -7,8 +7,6 @@
   - [Baremetal](#baremetal)
   - [Verificando a instalação](#verificando-instalação)
 
-- [Deploying the config-map](#deploying-the-config-map)
-
 ## Deploy Genérico 
 
 The following resources are required for a generic deployment.
