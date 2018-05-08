@@ -3,7 +3,7 @@
 ## Contents
 
 - [Comandos mandatórios](#comandos-mandatórios)
-- [Instalar Nginx Controller com regras RBAC](#instalar-Nginx-Controller-com-regras-RBAC)
+- [Instalar Nginx Controller com regras RBAC](#instalar-nginx-controller-com-regras-rbac)
 - [Custom Provider](#custom-provider)
   - [Baremetal](#baremetal)
   - [Verificando a instalação](#Verificando a instalação)
