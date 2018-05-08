@@ -48,7 +48,7 @@ isso irá abrir as portas 80 e 443 (portas usadas pelo controlador) usando hostp
 Using [NodePort](https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport):
 
 ```console
-kubectl apply -f -/deploy/service-nodeport.yaml 
+kubectl apply -f deploy/service-nodeport.yaml 
     
 ```
 
