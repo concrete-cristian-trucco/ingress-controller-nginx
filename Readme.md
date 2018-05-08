@@ -14,7 +14,7 @@
 
 The following resources are required for a generic deployment.
 
-### Comandos-mandatórios
+### Comandos Mandatórios
 
 ```console
 
