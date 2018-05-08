@@ -17,15 +17,15 @@ The following resources are required for a generic deployment.
 
 ```console
 
-kubectl apply -f /deploy/namespace.yaml 
+kubectl apply -f deploy/namespace.yaml 
     
-kubectl apply -f /deploy/default-backend.yaml 
+kubectl apply -f deploy/default-backend.yaml 
     
-kubectl apply -f /deploy/configmap.yaml     
+kubectl apply -f deploy/configmap.yaml     
 
-kubectl apply -f -/deploy/tcp-services-configmap.yaml 
+kubectl apply -f deploy/tcp-services-configmap.yaml 
    
-kubectl apply -f -/deploy/udp-services-configmap.yaml 
+kubectl apply -f deploy/udp-services-configmap.yaml 
     
 ```
 
@@ -34,9 +34,9 @@ kubectl apply -f -/deploy/udp-services-configmap.yaml
 Please check the [RBAC](rbac.md) document.
 
 ```console
-kubectl apply -f /deploy/rbac.yaml 
+kubectl apply -f deploy/rbac.yaml 
 
-kubectl apply -f /deploy/nginx-controller-ds-rbac.yaml 
+kubectl apply -f deploy/nginx-controller-ds-rbac.yaml 
 ```
 Obs: O segundo comando irá aplicar DaemonSet nos nós do cluster
 isso irá abrir as portas 80 e 443 (portas usadas pelo controlador) usando hostport (semelhante ao Docker), necessário usar hostnetwork: true para ter esse comportamento, todas essas alterações já estão declaradas no nginx-controller-ds-rbac.yaml.
